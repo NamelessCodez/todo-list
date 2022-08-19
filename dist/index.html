@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>todo-list</title>
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="../src/assets/style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <span class="title"> Todo List </span>
+    </div>
+    <div class="main">
+      <nav class="nav">
+        <div class="default-project-list">
+          <button class="nav-item">Index</button>
+          <button class="nav-item">Today</button>
+          <button class="nav-item">This week</button>
+        </div>
+        <h1>Projects</h1>
+        <div class="custom-project-list">
+          <div class="project-list"></div>
+          <button class="add-project">Add Project</button>
+          <div class="project-form">
+            <input type="text" class="project-input" />
+            <button class="confirm-project">Add</button>
+            <button class="cancel-project">Cancel</button>
+          </div>
+        </div>
+      </nav>
+      <div class="content">
+        <h1>Inbox</h1>
+        <div class="add-item">
+          <div class="task-list"></div>
+          <button class="add-task">Add Task</button>
+          <div class="input-form">
+            <input type="text" class="task-input" />
+            <button class="add">Add</button>
+            <button class="cancel">Cancel</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

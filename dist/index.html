@@ -7,6 +7,10 @@
     <title>todo-list</title>
     <script src="main.js" defer></script>
     <link rel="stylesheet" href="../src/assets/style.css" />
+    <script
+      src="https://kit.fontawesome.com/21113c084d.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <div class="header">
@@ -15,14 +19,23 @@
     <div class="main">
       <nav class="nav">
         <div class="default-project-list">
-          <button class="nav-item">Index</button>
-          <button class="nav-item">Today</button>
-          <button class="nav-item">This week</button>
+          <button class="nav-item project project-0" data-project-number="0">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+              <!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+              <path
+                d="M447 56.25C443.5 42 430.7 31.1 416 31.1H96c-14.69 0-27.47 10-31.03 24.25L3.715 304.9C1.247 314.9 0 325.2 0 335.5v96.47c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48v-96.47c0-10.32-1.247-20.6-3.715-30.61L447 56.25zM352 352H160L128 288H72.97L121 96h270l48.03 192H384L352 352z"
+              />
+            </svg>
+            Inbox
+          </button>
         </div>
         <h1>Projects</h1>
         <div class="custom-project-list">
           <div class="project-list"></div>
-          <button class="add-project">Add Project</button>
+          <button class="add-project">
+            <i class="fa-solid fa-plus"></i>
+            Add Project
+          </button>
           <div class="project-form">
             <input type="text" class="project-input" />
             <button class="confirm-project">Add</button>
@@ -34,7 +47,10 @@
         <h1>Inbox</h1>
         <div class="add-item">
           <div class="task-list"></div>
-          <button class="add-task">Add Task</button>
+          <button class="add-task">
+            <i class="fa-solid fa-plus"></i>
+            Add Task
+          </button>
           <div class="input-form">
             <input type="text" class="task-input" />
             <button class="add">Add</button>

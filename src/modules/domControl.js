@@ -19,6 +19,8 @@ const firstLoad = function () {
     addProject.style.display = "none";
     projectForm.style.display = "grid";
   });
+
+  localStorage.clear();
 };
 
 export default firstLoad;

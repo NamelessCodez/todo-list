@@ -47,6 +47,9 @@ h1 {
   font-family: "Poppins";
   width: 100%;
   text-align: start;
+  display: flex;
+  align-items: center;
+  gap: 12px;
 }
 
 .content {
@@ -138,12 +141,62 @@ input {
   width: 100%;
   border: none;
   font-family: inherit;
-  font-size: 16px;
-  padding: 5px 8px 5px 16px;
+  font-size: 18px;
+  padding: 8px 8px 8px 16px;
   text-align: start;
   background-color: white;
+  display: flex;
+  align-items: center;
+  gap: 16px;
 }
 
 .content h1 {
   margin-left: 8px;
+}
+
+svg {
+  height: 18px;
+  width: auto;
+}
+.delete-project {
+  background-color: inherit;
+  width: fit-content;
+}
+i {
+  height: 14px;
+  width: 14px;
+}
+
+.project {
+  display: flex;
+  align-items: center;
+}
+
+.project > i {
+  margin-right: 12px;
+}
+.delete-project {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.add-project,
+.add-task {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.delete-task {
+  background-color: inherit;
+  width: fit-content;
+  margin-left: 16px;
+}
+
+.date-div {
+  margin-left: auto;
+}
+
+.delete-button-container {
+  width: 30px;
 }

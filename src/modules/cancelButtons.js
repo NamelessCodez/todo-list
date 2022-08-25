@@ -9,12 +9,12 @@ const cancelButtons = function () {
   const addProject = document.querySelector(".add-project");
 
   cancelTaskButton.addEventListener("click", function () {
-    addTaskButton.style.display = "block";
+    addTaskButton.style.display = "flex";
     inputForm.style.display = "none";
   });
 
   cancelProjectButton.addEventListener("click", function () {
-    addProject.style.display = "block";
+    addProject.style.display = "flex";
     projectForm.style.display = "none";
   });
 };
